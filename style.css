@@ -1,0 +1,112 @@
+@font-face {
+    font-family: "Source Sans Pro";
+    src: url(./fonts/Source\ Sans\ Pro.woff2);
+}
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Source Sans Pro";
+    box-sizing: border-box;
+}
+.container{
+    max-width: 1140px;
+    margin: 0 auto;
+    padding: 0 24px;
+}
+.hero-text{
+    font-family: "Source Sans Pro";
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 60px;
+    text-align: center;
+    color: #000;
+}
+.hero-text span{
+    color: #2FCD70;
+}
+.hero-list p{
+    padding-top: 30px;
+    font-family: "Source Sans Pro";
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 35px;
+    text-align: center;
+}
+.hero-images{
+    margin-top: 50px;
+    padding: 30px;
+    box-shadow: 0px 50px 100px 0px #0000000A;
+}
+.hero-card{
+    display: flex;
+    gap: 20px;
+}
+.hero-cards{
+    display: grid;
+    gap: 30px;
+    grid-template-columns: repeat(3, 1fr);
+}
+.hero-images-card{
+    display: flex;
+    gap: 20px;
+}
+.hero-title p{
+    font-family: "Source Sans Pro";
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 20.11px;
+    text-align: left;
+    color: #02020280;
+    opacity: 50%;
+}
+.hero-title strong{
+    font-family: "Source Sans Pro";
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 25.14px;
+    text-align: left;
+}
+.hero-item-list{
+    max-width: 300px;
+    font-family: "Source Sans Pro";
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 35px;
+    text-align: left;
+    margin: 20px 0;
+}
+.hero-box a{
+    font-family: "Source Sans Pro";
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 20.11px;
+    text-align: left;
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    gap: 5px;
+    color: #2FCD70;
+}
+.hero-avatarka{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.hero-avatar{
+    display: flex;
+    align-items: center;
+    margin: 20px 0;
+    gap: 59px;
+}
+
+@media only screen and (max-width:960px){
+    .hero-cards {
+    grid-template-columns: repeat(2, 1fr);
+    }
+}
+@media only screen and (max-width:760px){
+    .hero-cards {
+    grid-template-columns: repeat(1, 1fr);
+    }
+}
